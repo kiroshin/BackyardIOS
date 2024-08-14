@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		487918C62C5365F5003FEA1C /* BackyardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487918C52C5365F5003FEA1C /* BackyardApp.swift */; };
-		487918C82C5365F5003FEA1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487918C72C5365F5003FEA1C /* ContentView.swift */; };
+		487918C62C5365F5003FEA1C /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487918C52C5365F5003FEA1C /* MainApp.swift */; };
 		487918CA2C5365F7003FEA1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487918C92C5365F7003FEA1C /* Assets.xcassets */; };
 		487918CD2C5365F7003FEA1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487918CC2C5365F7003FEA1C /* Preview Assets.xcassets */; };
-		487918CF2C5365F7003FEA1C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487918CE2C5365F7003FEA1C /* Persistence.swift */; };
 		487918D22C5365F7003FEA1C /* Backyard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 487918D02C5365F7003FEA1C /* Backyard.xcdatamodeld */; };
 		487918DC2C5365F8003FEA1C /* BackyardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487918DB2C5365F8003FEA1C /* BackyardTests.swift */; };
+		48F925F82C6C83A400BA5B06 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F925F72C6C83A400BA5B06 /* MainView.swift */; };
+		48F925FA2C6C982D00BA5B06 /* UIBasicNavSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F925F92C6C982D00BA5B06 /* UIBasicNavSearchBar.swift */; };
+		48F925FC2C6C9C3F00BA5B06 /* HTTPAccessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F925FB2C6C9C3F00BA5B06 /* HTTPAccessing.swift */; };
+		48F925FD2C6C9C3F00BA5B06 /* HTTPAccessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F925FB2C6C9C3F00BA5B06 /* HTTPAccessing.swift */; };
+		48F925FF2C6C9C6300BA5B06 /* HTTPRandomuserAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F925FE2C6C9C6300BA5B06 /* HTTPRandomuserAccess.swift */; };
+		48F926002C6C9C6300BA5B06 /* HTTPRandomuserAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F925FE2C6C9C6300BA5B06 /* HTTPRandomuserAccess.swift */; };
+		48F926042C6C9CCA00BA5B06 /* HTTPRandomuserAccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F926032C6C9CCA00BA5B06 /* HTTPRandomuserAccessTests.swift */; };
+		48F926062C6C9D8D00BA5B06 /* Task+Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F926052C6C9D8D00BA5B06 /* Task+Sleep.swift */; };
+		48F926072C6C9D8D00BA5B06 /* Task+Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F926052C6C9D8D00BA5B06 /* Task+Sleep.swift */; };
+		48F926092C6C9E8900BA5B06 /* UnfairLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F926082C6C9E8900BA5B06 /* UnfairLock.swift */; };
+		48F9260A2C6C9E8900BA5B06 /* UnfairLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F926082C6C9E8900BA5B06 /* UnfairLock.swift */; };
+		48F9260C2C6C9ED800BA5B06 /* CoreDataStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F9260B2C6C9ED800BA5B06 /* CoreDataStacking.swift */; };
+		48F9260D2C6C9ED800BA5B06 /* CoreDataStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F9260B2C6C9ED800BA5B06 /* CoreDataStacking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,14 +40,20 @@
 /* Begin PBXFileReference section */
 		485EDE222C5368CA0094BC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		487918C22C5365F5003FEA1C /* Backyard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Backyard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		487918C52C5365F5003FEA1C /* BackyardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackyardApp.swift; sourceTree = "<group>"; };
-		487918C72C5365F5003FEA1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		487918C52C5365F5003FEA1C /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 		487918C92C5365F7003FEA1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		487918CC2C5365F7003FEA1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		487918CE2C5365F7003FEA1C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		487918D12C5365F7003FEA1C /* Backyard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Backyard.xcdatamodel; sourceTree = "<group>"; };
 		487918D72C5365F8003FEA1C /* BackyardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackyardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		487918DB2C5365F8003FEA1C /* BackyardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackyardTests.swift; sourceTree = "<group>"; };
+		48F925F72C6C83A400BA5B06 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		48F925F92C6C982D00BA5B06 /* UIBasicNavSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBasicNavSearchBar.swift; sourceTree = "<group>"; };
+		48F925FB2C6C9C3F00BA5B06 /* HTTPAccessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPAccessing.swift; sourceTree = "<group>"; };
+		48F925FE2C6C9C6300BA5B06 /* HTTPRandomuserAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRandomuserAccess.swift; sourceTree = "<group>"; };
+		48F926032C6C9CCA00BA5B06 /* HTTPRandomuserAccessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRandomuserAccessTests.swift; sourceTree = "<group>"; };
+		48F926052C6C9D8D00BA5B06 /* Task+Sleep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+Sleep.swift"; sourceTree = "<group>"; };
+		48F926082C6C9E8900BA5B06 /* UnfairLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnfairLock.swift; sourceTree = "<group>"; };
+		48F9260B2C6C9ED800BA5B06 /* CoreDataStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStacking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,13 +95,18 @@
 		487918C42C5365F5003FEA1C /* Backyard */ = {
 			isa = PBXGroup;
 			children = (
-				485EDE222C5368CA0094BC39 /* Info.plist */,
-				487918C52C5365F5003FEA1C /* BackyardApp.swift */,
-				487918C72C5365F5003FEA1C /* ContentView.swift */,
 				487918C92C5365F7003FEA1C /* Assets.xcassets */,
-				487918CE2C5365F7003FEA1C /* Persistence.swift */,
 				487918D02C5365F7003FEA1C /* Backyard.xcdatamodeld */,
+				48F9260B2C6C9ED800BA5B06 /* CoreDataStacking.swift */,
+				48F925FB2C6C9C3F00BA5B06 /* HTTPAccessing.swift */,
+				48F925FE2C6C9C6300BA5B06 /* HTTPRandomuserAccess.swift */,
+				485EDE222C5368CA0094BC39 /* Info.plist */,
+				487918C52C5365F5003FEA1C /* MainApp.swift */,
+				48F925F72C6C83A400BA5B06 /* MainView.swift */,
 				487918CB2C5365F7003FEA1C /* Preview Content */,
+				48F926052C6C9D8D00BA5B06 /* Task+Sleep.swift */,
+				48F925F92C6C982D00BA5B06 /* UIBasicNavSearchBar.swift */,
+				48F926082C6C9E8900BA5B06 /* UnfairLock.swift */,
 			);
 			path = Backyard;
 			sourceTree = "<group>";
@@ -101,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				487918DB2C5365F8003FEA1C /* BackyardTests.swift */,
+				48F926032C6C9CCA00BA5B06 /* HTTPRandomuserAccessTests.swift */,
 			);
 			path = BackyardTests;
 			sourceTree = "<group>";
@@ -205,10 +228,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				487918CF2C5365F7003FEA1C /* Persistence.swift in Sources */,
-				487918C82C5365F5003FEA1C /* ContentView.swift in Sources */,
+				48F9260C2C6C9ED800BA5B06 /* CoreDataStacking.swift in Sources */,
+				48F925FA2C6C982D00BA5B06 /* UIBasicNavSearchBar.swift in Sources */,
+				48F926092C6C9E8900BA5B06 /* UnfairLock.swift in Sources */,
+				48F925FF2C6C9C6300BA5B06 /* HTTPRandomuserAccess.swift in Sources */,
 				487918D22C5365F7003FEA1C /* Backyard.xcdatamodeld in Sources */,
-				487918C62C5365F5003FEA1C /* BackyardApp.swift in Sources */,
+				48F925F82C6C83A400BA5B06 /* MainView.swift in Sources */,
+				48F925FC2C6C9C3F00BA5B06 /* HTTPAccessing.swift in Sources */,
+				487918C62C5365F5003FEA1C /* MainApp.swift in Sources */,
+				48F926062C6C9D8D00BA5B06 /* Task+Sleep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +244,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F9260D2C6C9ED800BA5B06 /* CoreDataStacking.swift in Sources */,
+				48F925FD2C6C9C3F00BA5B06 /* HTTPAccessing.swift in Sources */,
+				48F926002C6C9C6300BA5B06 /* HTTPRandomuserAccess.swift in Sources */,
 				487918DC2C5365F8003FEA1C /* BackyardTests.swift in Sources */,
+				48F9260A2C6C9E8900BA5B06 /* UnfairLock.swift in Sources */,
+				48F926042C6C9CCA00BA5B06 /* HTTPRandomuserAccessTests.swift in Sources */,
+				48F926072C6C9D8D00BA5B06 /* Task+Sleep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
